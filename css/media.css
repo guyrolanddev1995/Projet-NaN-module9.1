@@ -1,0 +1,160 @@
+
+
+@media screen and (max-width: 1111px){
+ .carousel-caption h1{
+	font-size: 60px;
+
+ }
+}
+
+@media screen and (max-width: 992px){
+  .topnav .show{
+  	padding-left: 20px;
+  	z-index: 999;
+  	background-color: rgba(255,255,255,.55);
+  	color: black;
+  }
+
+  .navbar-brand{
+  	 margin-left: 20px;
+  }
+  .carousel-caption{
+  	display: block;
+  	width: 100%;
+  	
+  }
+ 
+  .carousel-caption h1{
+	font-size: 55px;
+	word-wrap: break-word;
+  }
+
+ .services{
+ 	margin-top: 0;
+ }
+
+}
+
+
+@media screen and (max-width: 767px){
+ .banner-slider{
+ 	height: 300px;
+ 	margin-bottom: 300px;
+ }
+
+ .carousel-inner img{
+ 	height: 300px;
+ }
+ .carousel-caption h1{
+	font-size: 35px;
+	text-align: center;
+	width: 100%;
+	word-wrap: break-word;
+ }
+
+ .btn-info{
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+	margin-top: 10px;
+ }
+
+  .piece-card img{
+   height: 250px;
+  }
+
+  .piece-card-title{
+     font-weight: 600;
+     font-size: 20px;
+   }
+
+   .piece-card-price{
+	  color: #FF7C00;
+	  font-size: 19px;
+   }
+
+   .services{
+ 	 margin-top: -150px;
+   }
+
+  .comode-container{
+ 	display: block;
+  }
+
+  .comode-container .demi-boite{
+	width: 100%;
+  }
+
+  .btn-reservation2{
+  	position: static;
+  	display: block;
+  	width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width: 585px){
+ .banner-slider{
+ 	height: 300px;
+ 	margin-bottom: 300px;
+ }
+
+ .carousel-inner img{
+ 	height: 300px;
+ }
+ 
+}
+
+@media screen and (max-width: 520px){
+  .meals{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 480px){
+ .banner-slider{
+ 	height: 350px;
+ }
+
+ .carousel-inner img{
+ 	height: 350px;
+ }
+
+ .newsletter-form{
+ 	display: -webkit-box;
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-wrap: nowrap;
+ 	    flex-wrap: nowrap;
+ }
+ 
+}
+
+@media screen and (min-width: 1730px){
+	.services{
+		margin-top: 300px;
+	}
+}
+
+@media screen and (min-width: 2000px){
+	.services{
+		margin-top: 500px;
+	}
+}
+
+
+@media screen and (max-width: 400px){
+ .banner-slider{
+ 	height: 430px;
+ }
+
+ .carousel-inner img{
+ 	height: 430px;
+ }
+
+}
